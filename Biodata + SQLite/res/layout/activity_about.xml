@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      app:layout_behavior="@string/appbar_scrolling_view_behavior">
+      <ListView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/lvData"
+        android:layout_margin="5dp"/>
+  </RelativeLayout>
+  <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="end|bottom"
+      android:layout_margin="16dp"
+      android:id="@+id/fabAdd"
+      android:text="Buat Data"
+      android:textSize="12sp"
+      android:gravity="center"
+      android:textColor="@android:color/white"
+      android:theme="@style/MaterialTheme"
+      app:backgroundTint="@color/colorAccent"
+    />
+
+  </androidx.coordinatorlayout.widget.CoordinatorLayout>

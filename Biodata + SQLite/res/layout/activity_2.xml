@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FEFEFF">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/profile" />
+
+                <!--pertama-->
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:src="@drawable/hakim">
+
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="35dp"
+                        android:background="@drawable/a"/>
+
+                    <TextView
+                        android:id="@+id/judul"
+                        android:text="Nama"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="65dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="40dp"
+                        android:layout_toRightOf="@+id/icon"/>
+
+                    <TextView
+                        android:id="@+id/deskripsi"
+                        android:text="Moh Lukman Hakim"
+                        android:fontFamily="@font/poppins_light"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="65dp"
+                        android:layout_below="@+id/judul"
+                        android:layout_marginTop="2dp"
+                        android:layout_toRightOf="@+id/icon"/>
+
+                    <!--KEDUA-->
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="105dp"
+                        android:background="@drawable/b"/>
+
+                    <TextView
+                        android:id="@+id/judul1"
+                        android:text="NIM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="65dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="110dp"
+                        android:layout_toRightOf="@+id/icon"/>
+
+                    <TextView
+                        android:id="@+id/deskripsi1"
+                        android:text="201851050"
+                        android:fontFamily="@font/poppins_light"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="65dp"
+                        android:layout_below="@+id/judul"
+                        android:layout_marginTop="75dp"
+                        android:layout_toRightOf="@+id/icon"/>
+
+                    <!--KETIGA-->
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="180dp"
+                        android:background="@drawable/c"/>
+
+                    <TextView
+                        android:id="@+id/judul2"
+                        android:text="Alamat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="65dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="185dp"
+                        android:layout_toRightOf="@+id/icon"/>
+
+                    <TextView
+                        android:id="@+id/deskripsi2"
+                        android:text="Desa Sambung RT 6 RW 3 Undaan Kudus"
+                        android:fontFamily="@font/poppins_light"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="65dp"
+                        android:layout_below="@+id/judul"
+                        android:layout_marginTop="145dp"
+                        android:layout_toRightOf="@+id/icon"/>
+
+                    <!--KEEMPAT-->
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="250dp"
+                        android:background="@drawable/d"/>
+
+                    <TextView
+                        android:id="@+id/judul3"
+                        android:text="Tempat Tanggal Lahir"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="65dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="255dp"
+                        android:layout_toRightOf="@+id/icon"/>
+
+                    <TextView
+                        android:id="@+id/deskripsi3"
+                        android:text="Kudus, 03 Mei 2000"
+                        android:fontFamily="@font/poppins_light"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="65dp"
+                        android:layout_below="@+id/judul"
+                        android:layout_marginTop="215dp"
+                        android:layout_toRightOf="@+id/icon"/>
+
+                    <!--KEEMPAT-->
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="320dp"
+                        android:background="@drawable/e"/>
+
+                    <TextView
+                        android:id="@+id/judul4"
+                        android:text="Hobby"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="65dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="326dp"
+                        android:layout_toRightOf="@+id/icon"/>
+
+                    <TextView
+                        android:id="@+id/deskripsi4"
+                        android:text="Membaca"
+                        android:fontFamily="@font/poppins_light"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="65dp"
+                        android:layout_below="@+id/judul"
+                        android:layout_marginTop="285dp"
+                        android:layout_toRightOf="@+id/icon"
+                        tools:ignore="UnknownId" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

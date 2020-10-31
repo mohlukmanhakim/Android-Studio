@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFEFF"
+    android:orientation="vertical"
+    tools:context=".HelpActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#FEFEFF"
+        android:src="@drawable/what"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="230dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="KLIK TEXT IF YOU NEED HELP"
+        />
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/wa"
+        />
+    <TextView
+        android:id="@+id/txt_wa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="262dp"
+        android:text="WhatsApp"
+        android:textColor="#2196F3"
+        android:textStyle="bold|italic"
+        android:textSize="25dp"
+        />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/telegram"
+        />
+    <TextView
+        android:id="@+id/txt_tele"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="325dp"
+        android:text="Telegram"
+        android:textColor="#2196F3"
+        android:textStyle="bold|italic"
+        android:textSize="25dp"
+        />
+
+</RelativeLayout>

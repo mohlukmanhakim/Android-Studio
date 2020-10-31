@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/welcome"
+        >
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Moh Lukman Hakim"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="17dp"
+        android:fontFamily="@font/poppins_light"
+        android:gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="201851050"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="1dp"
+        android:fontFamily="@font/poppins_light"
+        android:gravity="center_horizontal"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:text="profil saya"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="60dp"
+        android:id="@+id/button0"
+        android:onClick="profil"
+        tools:ignore="OnClick" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:text="telphon saya"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button1"
+        android:onClick="cellphone"
+        tools:ignore="OnClick" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:text="kirim email"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button2"
+        android:onClick="email"
+        tools:ignore="OnClick" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:text="buka alamat di maps"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button3"
+        android:onClick="showMaps"
+        tools:ignore="OnClick" />
+
+</LinearLayout>
